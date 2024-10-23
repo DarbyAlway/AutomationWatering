@@ -7,14 +7,14 @@
 #define WATER_SENSOR_PIN 34 // GPIO for the water sensor signal (analog pin)
 #define VCC_PIN 4          // GPIO 4 for VCC to the sensor
 
-const char* ssid = "Patta";         // Replace with your Wi-Fi SSID
-const char* password = "0864395473"; // Replace with your Wi-Fi password
+const char* ssid = "Patt";         // Replace with your Wi-Fi SSID
+const char* password = "12345678"; // Replace with your Wi-Fi password
 String lineToken = "p5aL9cbT0V4N3oHECOmoMOkgBSGU41CwXMX4FurRn4E"; // Replace with your LINE Notify token
 
 String waterSensorId = "id01";
 int waterLevel = 0; // Water level value from sensor
 
-const char* host = "192.168.0.133"; // Server IP address
+const char* host = "192.168.136.71"; // Server IP address
 
 WebServer server(80); // Create a web server object on port 80
 
